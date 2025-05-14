@@ -1,0 +1,29 @@
+[package]
+name = "num2bits"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+p3-air = { workspace = true }
+p3-field = { workspace = true }
+p3-matrix = { workspace = true }
+p3-mersenne-31 = { workspace = true }
+p3-util = { workspace = true }
+p3-baby-bear = { workspace = true }
+p3-challenger = { workspace = true }
+p3-circle = { workspace = true }
+p3-commit = { workspace = true }
+p3-dft = { workspace = true }
+p3-fri = { workspace = true }
+p3-goldilocks = { workspace = true }
+p3-blake3 = { workspace = true }
+p3-keccak = { workspace = true }
+p3-mds = { workspace = true }
+p3-merkle-tree = { workspace = true }
+p3-poseidon = { workspace = true }
+p3-poseidon2 = { workspace = true }
+p3-symmetric = { workspace = true }
+p3-uni-stark = { workspace = true }
+rand = "0.9"
+tracing-subscriber = { workspace = true }
+tracing-forest = { workspace = true }
